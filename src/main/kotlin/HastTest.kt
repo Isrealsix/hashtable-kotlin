@@ -89,7 +89,7 @@ class HashTest {
     @Test
     fun testAddUnordered() {
         val start = System.currentTimeMillis()
-        val stringObjectBuilder = factory.getBuilderByName("String")
+//        val stringObjectBuilder = factory.getBuilderByName("String")
         for (i in 0 until 10) {
             hash.put(5, StringObjectBuilder().create())
             hash.put(5, StringObjectBuilder().create())
